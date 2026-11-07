@@ -1,0 +1,65 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ogec-connecteurs",
+  "owner": {
+    "name": "aghulas",
+    "url": "https://github.com/aghulas"
+  },
+  "description": "Connecteurs MCP génériques pour OGEC et écoles de l'Enseignement catholique : skills d'usage et de maintenance, sans donnée d'établissement.",
+  "plugins": [
+    {
+      "name": "charlemagne",
+      "source": {
+        "source": "github",
+        "repo": "aghulas/charlemagne-mcp"
+      },
+      "description": "Charlemagne (Aplim) : formats d'import, affectation des photos, import des mails et téléphones.",
+      "category": "scolarite"
+    },
+    {
+      "name": "ecoledirecte-admin",
+      "source": {
+        "source": "github",
+        "repo": "aghulas/ecoledirecte-admin-mcp"
+      },
+      "description": "Console d'administration EcoleDirecte : maintenance du connecteur.",
+      "category": "scolarite"
+    },
+    {
+      "name": "edumoov",
+      "source": {
+        "source": "github",
+        "repo": "aghulas/edumoov-mcp"
+      },
+      "description": "Edumoov / Educartable : communication aux familles, contrôle de rentrée, maintenance du connecteur.",
+      "category": "scolarite"
+    },
+    {
+      "name": "maclasse",
+      "source": {
+        "source": "github",
+        "repo": "aghulas/maclasse-mcp"
+      },
+      "description": "Photos scolaires maclasse.photo : photos des élèves et suivi des commandes.",
+      "category": "scolarite"
+    },
+    {
+      "name": "urssaf-vigilance",
+      "source": {
+        "source": "github",
+        "repo": "aghulas/urssaf-vigilance-mcp"
+      },
+      "description": "Vérification des attestations de vigilance Urssaf des fournisseurs et suivi.",
+      "category": "conformite"
+    },
+    {
+      "name": "wordpress",
+      "source": {
+        "source": "github",
+        "repo": "aghulas/wordpress-mcp"
+      },
+      "description": "Site WordPress d'école : consultation, audit et mise à jour avec aperçu et confirmation ; maintenance du connecteur.",
+      "category": "web"
+    }
+  ]
+}
